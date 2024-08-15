@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    justify-content: space-around;
+    padding: 1.5rem 5rem;
+}
+nav img{
+    max-width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+}
+nav h1{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.nav-links{
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+.nav-links li:hover{
+    border-bottom: 4px solid black;
+}
+
+nav button{
+    padding: .5rem 1.5rem;
+    border: 2px solid orangered;
+    border-radius: 1rem;
+    border-width: 2px;
+    background-color: orangered;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    transition: all 200ms ease;
+}
+nav button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.blog:hover .list{
+    display: block;
+    background-color: red;
+}
+.list{
+    display: none;
+}
